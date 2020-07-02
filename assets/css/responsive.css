@@ -1,0 +1,30 @@
+/* Tablet */
+@media all and (max-width: 1000px) {
+    .menu-text h2 {
+        font-size: 35px;
+        letter-spacing: 1px;
+    }
+
+    .menu-text p {
+        line-height: 1em;
+    }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+    .menu {
+        padding: 20px;
+        flex-wrap: wrap;
+        border-radius: 25px;
+    }
+
+    .menu-text {
+        padding: 0 20px;
+        font-size: 14px;
+    }
+
+    .menu-img img {
+        padding: 20px;
+        width: 50%;
+    }
+}
