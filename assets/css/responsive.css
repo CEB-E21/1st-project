@@ -27,4 +27,16 @@
         padding: 20px;
         width: 50%;
     }
+
+    .hero-text-contents h1{
+        font-size: 48px;
+    }
+
+    .hero-text-contents p{
+        font-size: 18px;
+    }
+
+    .btn-container .btn-primary {
+        font-size: 14px;
+    }
 }

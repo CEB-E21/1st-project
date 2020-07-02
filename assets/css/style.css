@@ -26,10 +26,11 @@ body {
 .container {
     padding: 0 50px;
 }
-
+/** menu */
 .menu-wrapper {
     text-align: center;
     margin-top: 30px;
+    
 }
 
 .menu {
@@ -47,6 +48,7 @@ body {
 }
 
 .menu-text h2 {
+    font-family: SF Display;
     /* margin-bottom: 20px; */
     opacity: 0.7;
     font-size: 45px;
@@ -56,10 +58,12 @@ body {
 }
 
 .menu-text h4 {
+    font-family: SF Display;
     color: #ffa931;
 }
 
 .menu-text p {
+    font-family: SF Display;
     /* font-size: 20px; */
     opacity: 0.7;
     line-height: 2em;
@@ -83,4 +87,49 @@ body {
 
 .menu:hover {
     box-shadow: #b9ac92 10px 10px 40px;
+}
+
+/** hero */
+.hero {
+    padding: 0px;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+
+.hero-text-contents {
+    padding: 0 40px;
+    flex: auto;
+}
+
+.hero-text-contents h1 {
+    font-family: SF Display;
+    font-size: 72px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.hero-text-contents p{
+    font-family: SF Display;
+    font-size: 20px;
+    font-weight: normal;
+    text-align:center;
+}
+
+.btn-container {
+    padding: 20px 0;
+}
+
+.btn-container .btn-primary {
+    width:40%;
+    height:50px;
+    position: relative;
+    left:30%;
+    right:30%;
+    font-family: SF Display;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
 }
