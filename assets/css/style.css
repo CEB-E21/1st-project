@@ -84,3 +84,88 @@ body {
 .menu:hover {
     box-shadow: #b9ac92 10px 10px 40px;
 }
+
+.pteam {
+    padding: 0 40px;
+    color: #605f66;
+    text-align: center;
+  }
+  
+  .pteam-heading {
+    margin: 50px 0px;
+  }
+  
+  .pteam-heading p:first-of-type {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: bold;
+  }
+  
+  .pteam-heading p:last-of-type {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 45px;
+    letter-spacing: 0.15em;
+  }
+  
+  .cardteam {
+    display: flex;
+  }
+  
+  .card {
+    flex: auto;
+    border-radius: 10px;
+    margin: 15px;
+    width: 240px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: rgba(250, 250, 250, 0.2);
+    transition: 300ms;
+  }
+  
+  .card:hover {
+    transform: scale(00.5s);
+    box-shadow: 0px 0px 25px rgba(100, 102, 93, 0.20);
+  }
+
+  .card p{
+      color: #140eb6;
+  }
+  
+  .card img{
+    border-radius: 50%;
+    border-style: dotted;
+  }
+  
+  .name {
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .motto {
+    color: #01000C;
+    font-size: 16px;
+    padding: 15px 0;
+    line-height: 20px;
+  }
+
+  .motto q{
+      color:#000000;
+  }
+
+  hr{
+      display: block;
+      border-style: groove;
+  }
+  
+  .sosmed a {
+    display: inline-block;
+    margin: auto 0;
+    padding: 0 2.5px;
+  }
+
+  .sosmed img{
+      border-style: hidden;
+  }
+  

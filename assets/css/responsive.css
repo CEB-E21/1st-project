@@ -8,6 +8,15 @@
     .menu-text p {
         line-height: 1em;
     }
+
+    .cardteam {
+        flex-wrap: wrap;
+    }
+
+    .cardteam .card {
+        width: 25%;
+        margin: 10px 15px;
+    }
 }
 
 /* For Smartphones */
@@ -27,4 +36,14 @@
         padding: 20px;
         width: 50%;
     }
+
+    .cardteam {
+        flex-direction: column;
+    }
+
+    .cardteam .card {
+        width: 75%;
+        margin: 10px auto;
+    }
+
 }
