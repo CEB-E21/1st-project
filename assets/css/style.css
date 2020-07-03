@@ -24,46 +24,45 @@ body {
 }
 
 .container {
-    width:100%;
-    background-color: #fbe6d4;
+  width: 100%;
+  background-color: #fbe6d4;
 }
 
 /** header */
-.header-left{
-    display: flex;
-    color:white;
-    background-color: rgba(0,0,0,0.8);
-    box-shadow: rgba(0,0,0,0.8) 10px 10px 40px;
+.header-left {
+  display: flex;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.8) 10px 10px 40px;
 }
 
-.header-left h1{
-    font-family: SF Display;
-    padding:10px 68% 10px 50px;
+.header-left h1 {
+  font-family: SF Display;
+  padding: 10px 68% 10px 50px;
 }
 
 .button-hamburger {
-    display: none;
+  display: none;
 }
 
-.header-left .header-button{
-    padding: 22px;
-    font-weight: bold;
-    background-color: transparent;
-    border-width: 0px;
-    color:white;
-    transition: all 0.2s;
+.header-left .header-button {
+  padding: 22px;
+  font-weight: bold;
+  background-color: transparent;
+  border-width: 0px;
+  color: white;
+  transition: all 0.2s;
 }
 
-.header-left .header-button:hover{
-    font-size: 13px;
+.header-left .header-button:hover {
+  font-size: 13px;
 }
 
 /** menu */
 .menu-wrapper {
-    padding: 0 50px;
-    text-align: center;
-    margin-top: 30px;
-    
+  padding: 0 50px;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .menu {
@@ -81,26 +80,26 @@ body {
 }
 
 .menu-text h2 {
-    font-family: SF Display;
-    /* margin-bottom: 20px; */
-    opacity: 0.7;
-    font-size: 45px;
-    letter-spacing: 5px;
-    margin-bottom: 5px;
-    border-bottom: 1px solid black;
+  font-family: SF Display;
+  /* margin-bottom: 20px; */
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid black;
 }
 
 .menu-text h4 {
-    font-family: SF Display;
-    color: #ffa931;
+  font-family: SF Display;
+  color: #ffa931;
 }
 
 .menu-text p {
-    font-family: "SF Text";
-    /* font-size: 20px; */
-    opacity: 0.7;
-    line-height: 2em;
-    margin-top: 20px;
+  font-family: "SF Text";
+  /* font-size: 20px; */
+  opacity: 0.7;
+  line-height: 2em;
+  margin-top: 20px;
 }
 
 .menu-img {
@@ -130,7 +129,7 @@ body {
 
 .pteam-heading {
   margin: 50px 0px;
-  font-family: 'SF Text';
+  font-family: "SF Text";
 }
 
 .pteam-heading p:first-of-type {
@@ -140,7 +139,6 @@ body {
 }
 
 .pteam-heading p:last-of-type {
-    
   font-size: 25px;
   font-weight: 300;
   line-height: 45px;
@@ -164,11 +162,11 @@ body {
 
 .card:hover {
   transform: scale(00.5s);
-  box-shadow: 0px 0px 25px rgba(100, 102, 93, 0.20);
+  box-shadow: 0px 0px 25px rgba(100, 102, 93, 0.2);
 }
 
 .card p {
-    font-family: "SF Text";
+  font-family: "SF Text";
   color: #140eb6;
 }
 
@@ -184,7 +182,7 @@ body {
 }
 
 .motto {
-  color: #01000C;
+  color: #01000c;
   font-size: 16px;
   padding: 15px 0;
   line-height: 20px;
@@ -212,35 +210,34 @@ hr {
 .contact-container {
   display: flex;
   justify-content: center;
-  font-family: 'Open Sans Condensed', arial, sans;
+  font-family: "Open Sans Condensed", arial, sans;
   width: auto;
   margin: 50px 0;
-
 }
 
 .contact-container .contact-left {
-  font-family: 'Open Sans Condensed', arial, sans;
+  font-family: "Open Sans Condensed", arial, sans;
   width: 400px;
   padding: 30px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
-  border-radius: 0px 0px 0px 15px;
+  border-radius: 15px;
 }
 
 .contact-container .contact-right {
-  font-family: 'Open Sans Condensed', arial, sans;
+  font-family: "Open Sans Condensed", arial, sans;
   width: 400px;
   padding: 30px;
   background: #f1b76ab0;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
   clip-path: inset(-15px -15px -15px 0px);
-  border-radius: 0px 0px 15px 0px;
+  border-radius: 15px;
 }
 
 .contact-container h4 {
-  background: #4D4D4D;
+  background: #4d4d4d;
   text-transform: uppercase;
-  font-family: "SF Display";
+  font-family: "Open Sans Condensed", sans-serif;
   color: #ffffff;
   font-size: 18px;
   font-weight: 100;
@@ -274,12 +271,12 @@ hr {
 
 .form-style input[type="button"],
 .form-style input[type="submit"] {
-  background-color: #2CBBBB;
-  border: 1px solid #27A0A0;
+  background-color: #2cbbbb;
+  border: 1px solid #27a0a0;
   display: inline-block;
   cursor: pointer;
-  color: #FFFFFF;
-  font-family: 'Open Sans Condensed', sans-serif;
+  color: #ffffff;
+  font-family: "Open Sans Condensed", sans-serif;
   font-size: 14px;
   padding: 8px 18px;
   text-decoration: none;
@@ -287,100 +284,103 @@ hr {
 }
 
 .form-style input[type="submit"]:hover {
-  background: linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
-  background-color: #34CACA;
+  background: linear-gradient(to bottom, #34caca 5%, #30c9c9 100%);
+  background-color: #34caca;
 }
 
 ul {
+  margin-top: 45px;
   list-style-type: none;
   padding-inline-start: 7px;
 }
 
 li {
-  margin-top: 20px;
+  margin-top: 50px;
+  display: flex;
 }
 
 li span {
+  margin-top: 5px;
   font: 16px Arial, Helvetica, sans-serif;
   padding-left: 10px;
 }
 
 /** hero */
 .hero-wrapper {
-    position: relative;
+  position: relative;
 }
 
 .hero {
-    padding: 10px;
-    margin-left:25%;
-    margin-right: 25%;
-    transition: all 0.5s;
-    display: flex;
-    flex-direction: column;
-    position:absolute;
-    top:0px;
-    left:0px;
+  padding: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
-.bg-image{
-    width:100%;
-    position: relative;
+.bg-image {
+  width: 100%;
+  position: relative;
 }
 
-.background-image{
-    width:100%;
-    height:500px;
-    object-fit: cover;
-    opacity: 50%;
+.background-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  opacity: 50%;
 }
 
 .hero-text-contents {
-    padding: 0 40px;
-    font-family: SF Display;
-    flex: auto;
-    color:black;
+  padding: 0 40px;
+  font-family: SF Display;
+  flex: auto;
+  color: black;
 }
 
 .hero-text-contents h1 {
-    /* font-family: SF Display; */
-    font-size: 72px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 40px;
+  /* font-family: SF Display; */
+  font-size: 72px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
-.hero-text-contents p{
-    font-family: "SF Text";
-    font-size: 20px;
-    font-weight: normal;
-    text-align:center;
+.hero-text-contents p {
+  font-family: "SF Text";
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
 }
 
 .btn-container {
-    padding: 20px 0px 50px 0px;
+  padding: 20px 0px 50px 0px;
 }
 
 .btn-container .btn-primary {
-    width:30%;
-    height:50px;
-    position: relative;
-    left:35%;
-    right:35%;
-    font-family: SF Display;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0);
-    color:black;
-    border-width: 0px 0px 2px 0px;
-    border-color: rgba(0,0,0,1);
-    /* border-radius: 10px; */
-    transition: all,0.5s;
+  width: 30%;
+  height: 50px;
+  position: relative;
+  left: 35%;
+  right: 35%;
+  font-family: SF Display;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  border-width: 0px 0px 2px 0px;
+  border-color: rgba(0, 0, 0, 1);
+  /* border-radius: 10px; */
+  transition: all, 0.5s;
 }
 
-.btn-container .btn-primary:hover{
-    box-shadow: rgba(0,0,0,0.8) 10px 10px 40px;
-    border-width: 0px;
-    background-color: rgba(0,0,0,0.8);
-    color: white;
+.btn-container .btn-primary:hover {
+  box-shadow: rgba(0, 0, 0, 0.8) 10px 10px 40px;
+  border-width: 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
