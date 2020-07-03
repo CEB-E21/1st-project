@@ -452,3 +452,10 @@ footer span {
 	font-family: "Brush Script MT";
 	font-size:30px;
 }
+
+footer p{
+    font-family: serif;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing:5px;
+}
