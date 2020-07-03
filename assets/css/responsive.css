@@ -18,14 +18,14 @@
         margin: 10px 15px;
     }
 
+    .contact-right {
+        width: 20%;
+        margin-right: 50px;
+    }
+
     .contact-left {
         width: 20%;
         margin-left: 50px;
-    }
-
-    .contact-right {
-        width: 50%;
-        margin-right: 50px;
     }
 
 }
@@ -80,14 +80,18 @@
         flex-wrap: wrap;
     }
 
-    .contact-container .contact-left {
-        margin-left: 0px;
-        border-radius: 0px;
+    .contact-container .contact-right {
+        margin: 0px 30px;
+        font-size: 10px;
     }
 
-    .contact-container .contact-right {
-        margin-right: 0px;
-        border-radius: 0px 0px 15px 15px;
+    .contact-left {
+        margin: 0px 30px;
+    }
+
+
+    li span {
+        margin-top: 0px;
     }
 
     .hero {

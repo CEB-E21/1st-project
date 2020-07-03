@@ -63,7 +63,6 @@ body {
   padding: 0 50px;
   text-align: center;
   margin-top: 30px;
-
 }
 
 .menu {
@@ -130,7 +129,7 @@ body {
 
 .pteam-heading {
   margin: 50px 0px;
-  font-family: 'SF Text';
+  font-family: "SF Text";
 }
 
 .pteam-heading p:first-of-type {
@@ -140,7 +139,6 @@ body {
 }
 
 .pteam-heading p:last-of-type {
-
   font-size: 25px;
   font-weight: 300;
   line-height: 45px;
@@ -164,7 +162,7 @@ body {
 
 .card:hover {
   transform: scale(00.5s);
-  box-shadow: 0px 0px 25px rgba(100, 102, 93, 0.20);
+  box-shadow: 0px 0px 25px rgba(100, 102, 93, 0.2);
 }
 
 .card p {
@@ -184,7 +182,7 @@ body {
 }
 
 .motto {
-  color: #01000C;
+  color: #01000c;
   font-size: 16px;
   padding: 15px 0;
   line-height: 20px;
@@ -212,35 +210,34 @@ hr {
 .contact-container {
   display: flex;
   justify-content: center;
-  font-family: 'Open Sans Condensed', arial, sans;
+  font-family: "Open Sans Condensed", arial, sans;
   width: auto;
   margin: 50px 0;
-
 }
 
 .contact-container .contact-left {
-  font-family: 'Open Sans Condensed', arial, sans;
+  font-family: "Open Sans Condensed", arial, sans;
   width: 400px;
   padding: 30px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
-  border-radius: 0px 0px 0px 15px;
+  border-radius: 15px;
 }
 
 .contact-container .contact-right {
-  font-family: 'Open Sans Condensed', arial, sans;
+  font-family: "Open Sans Condensed", arial, sans;
   width: 400px;
   padding: 30px;
   background: #f1b76ab0;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
   clip-path: inset(-15px -15px -15px 0px);
-  border-radius: 0px 0px 15px 0px;
+  border-radius: 15px;
 }
 
 .contact-container h4 {
-  background: #4D4D4D;
+  background: #4d4d4d;
   text-transform: uppercase;
-  font-family: "SF Display";
+  font-family: "Open Sans Condensed", sans-serif;
   color: #ffffff;
   font-size: 18px;
   font-weight: 100;
@@ -274,12 +271,12 @@ hr {
 
 .form-style input[type="button"],
 .form-style input[type="submit"] {
-  background-color: #2CBBBB;
-  border: 1px solid #27A0A0;
+  background-color: #2cbbbb;
+  border: 1px solid #27a0a0;
   display: inline-block;
   cursor: pointer;
-  color: #FFFFFF;
-  font-family: 'Open Sans Condensed', sans-serif;
+  color: #ffffff;
+  font-family: "Open Sans Condensed", sans-serif;
   font-size: 14px;
   padding: 8px 18px;
   text-decoration: none;
@@ -287,8 +284,8 @@ hr {
 }
 
 .form-style input[type="submit"]:hover {
-  background: linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
-  background-color: #34CACA;
+  background: linear-gradient(to bottom, #34caca 5%, #30c9c9 100%);
+  background-color: #34caca;
 }
 
 ul {
