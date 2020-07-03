@@ -32,6 +32,25 @@
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
+    .button-group-header{
+        display: none;
+    }
+
+    .button-hamburger {
+        display: block;
+        padding: 20px;
+    }
+    
+    .button-hamburger .more-menu-icon{
+        width:20px;
+        height:20px;
+    }
+
+    .header-left h1{
+        font-family: SF Display;
+        padding:10px 58% 10px 30px;
+    }
+
     .menu {
         padding: 20px;
         flex-wrap: wrap;
@@ -61,12 +80,30 @@
         flex-wrap: wrap;
     }
 
-    .contact-left {
+    .contact-container .contact-left {
         margin-left: 0px;
+        border-radius: 0px;
     }
 
-    .contact-right {
+    .contact-container .contact-right {
         margin-right: 0px;
+        border-radius: 0px 0px 15px 15px;
     }
 
+    .hero {
+        margin-left:5%;
+        margin-right: 5%;
+    }
+
+    .hero-text-contents h1{
+        font-size: 48px;
+    }
+
+    .hero-text-contents p{
+        font-size: 18px;
+    }
+
+    .btn-container .btn-primary {
+        font-size: 18px;
+    }
 }
