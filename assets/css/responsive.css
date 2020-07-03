@@ -102,7 +102,9 @@
     }
 
     .contact-container .contact-right {
-        margin: 0px 30px;
+        margin-top: 10px;
+        margin-right: 30px;
+        margin-left: 30px;
         font-size: 10px;
     }
 
