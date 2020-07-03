@@ -31,7 +31,7 @@ body {
 /** header */
 .header-left {
   display: flex;
-  color: white;
+  color: #ffa931;
   background-color: rgba(0, 0, 0, 0.8);
   box-shadow: rgba(0, 0, 0, 0.8) 10px 10px 40px;
 }
@@ -50,13 +50,94 @@ body {
   font-weight: bold;
   background-color: transparent;
   border-width: 0px;
-  color: white;
+  color: #ffa931;
   transition: all 0.2s;
 }
 
 .header-left .header-button:hover {
   font-size: 13px;
 }
+
+/** hero */
+.hero-wrapper {
+  position: relative;
+}
+
+.hero {
+  padding: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.bg-image {
+  width: 100%;
+  position: relative;
+}
+
+.background-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  opacity: 50%;
+}
+
+.hero-text-contents {
+  padding: 0 40px;
+  font-family: SF Display;
+  flex: auto;
+  color: black;
+}
+
+.hero-text-contents h1 {
+  /* font-family: SF Display; */
+  font-size: 72px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.hero-text-contents p {
+  font-family: "SF Text";
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.btn-container {
+  padding: 20px 0px 50px 0px;
+}
+
+.btn-container .btn-primary {
+  width: 30%;
+  height: 50px;
+  position: relative;
+  left: 35%;
+  right: 35%;
+  font-family: SF Display;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  border-width: 0px 0px 2px 0px;
+  border-color: rgba(0, 0, 0, 1);
+  /* border-radius: 10px; */
+  transition: all, 0.5s;
+}
+
+.btn-container .btn-primary:hover {
+  box-shadow: rgba(0, 0, 0, 0.8) 10px 10px 40px;
+  border-width: 0px;
+  background-color: #ffa931;
+  color: white;
+}
+
 
 /** menu */
 .menu-wrapper {
@@ -68,10 +149,30 @@ body {
 .menu {
   padding: 30px;
   margin-bottom: 30px;
-  background-color: white;
+  background-color: whitesmoke;
   display: flex;
   border-radius: 50px;
   transition: all 0.5s;
+}
+
+.menu-heading {
+  margin: 50px 0px;
+  font-family: "SF Text";
+  color: #605f66
+}
+
+.menu-heading p:first-of-type {
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: bold;
+
+}
+
+.menu-heading p:last-of-type {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 45px;
+  letter-spacing: 0.15em;
 }
 
 .menu-text {
@@ -118,8 +219,10 @@ body {
 }
 
 .menu:hover {
-  box-shadow: #b9ac92 10px 10px 40px;
+  box-shadow: 0px 0px 25px rgba(100, 102, 93, 0.2);
 }
+
+/* Team */
 
 .pteam {
   padding: 0 40px;
@@ -156,7 +259,7 @@ body {
   width: 240px;
   padding: 25px;
   box-sizing: border-box;
-  background-color: rgba(250, 250, 250, 0.2);
+  background-color: whitesmoke;
   transition: 300ms;
 }
 
@@ -167,7 +270,7 @@ body {
 
 .card p {
   font-family: "SF Text";
-  color: #140eb6;
+  color: #ffa931;
 }
 
 .card img {
@@ -205,6 +308,7 @@ hr {
 
 .sosmed img {
   border-style: hidden;
+  width: 35px;
 }
 
 .contact-container {
@@ -303,84 +407,4 @@ li span {
   margin-top: 5px;
   font: 16px Arial, Helvetica, sans-serif;
   padding-left: 10px;
-}
-
-/** hero */
-.hero-wrapper {
-  position: relative;
-}
-
-.hero {
-  padding: 10px;
-  margin-left: 25%;
-  margin-right: 25%;
-  transition: all 0.5s;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-
-.bg-image {
-  width: 100%;
-  position: relative;
-}
-
-.background-image {
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
-  opacity: 50%;
-}
-
-.hero-text-contents {
-  padding: 0 40px;
-  font-family: SF Display;
-  flex: auto;
-  color: black;
-}
-
-.hero-text-contents h1 {
-  /* font-family: SF Display; */
-  font-size: 72px;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-.hero-text-contents p {
-  font-family: "SF Text";
-  font-size: 20px;
-  font-weight: normal;
-  text-align: center;
-}
-
-.btn-container {
-  padding: 20px 0px 50px 0px;
-}
-
-.btn-container .btn-primary {
-  width: 30%;
-  height: 50px;
-  position: relative;
-  left: 35%;
-  right: 35%;
-  font-family: SF Display;
-  font-weight: bold;
-  font-size: 20px;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0);
-  color: black;
-  border-width: 0px 0px 2px 0px;
-  border-color: rgba(0, 0, 0, 1);
-  /* border-radius: 10px; */
-  transition: all, 0.5s;
-}
-
-.btn-container .btn-primary:hover {
-  box-shadow: rgba(0, 0, 0, 0.8) 10px 10px 40px;
-  border-width: 0px;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
 }
