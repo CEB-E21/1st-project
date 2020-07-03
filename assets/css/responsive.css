@@ -28,17 +28,34 @@
         margin-left: 50px;
     }
 
+    .hero {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .hero-text-contents h1 {
+        font-size: 56px;
+    }
+
+    .hero-text-contents p {
+        font-size: 22px;
+    }
+
+    .btn-container .btn-primary {
+        font-size: 20px;
+    }
+
 }
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
-    .button-group-header {
+    .header-right-btn-group {
         display: none;
     }
 
     .button-hamburger {
         display: block;
-        padding: 20px;
+        padding: 22px 20px 22px 0px;
     }
 
     .button-hamburger .more-menu-icon {

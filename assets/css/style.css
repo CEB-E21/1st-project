@@ -38,9 +38,22 @@ header {
   width: 100%;
   height: 65px;
   padding: 0px 40px;
-  position: fixed;
   box-sizing: border-box;
 }
+
+.header-right .header-right-btn {
+    padding: 22px;
+    font-weight: bold;
+    background-color: transparent;
+    border-width: 0px;
+    color: #ffa931;
+    transition: all 0.2s;
+  }
+  
+  .header-right .header-right-btn:hover {
+    font-size: 13px;
+    background-color: transparent;
+  }
 
 .logos {
   float: left;
@@ -56,17 +69,21 @@ header {
   float: right;
 }
 
-.header-right a {
+/* .header-right a {
   float: left;
   display: block;
   line-height: 65px;
   padding: 0 25px;
   color:#ffa931;
   transition: all 0.2s;
-}
+} */
 
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+.button-hamburger {
+    display:none;
 }
 
 
@@ -76,7 +93,7 @@ header {
 }
 
 .hero {
-  padding: 10px;
+  padding: 70px 0px;
   margin-left: 25%;
   margin-right: 25%;
   transition: all 0.5s;
@@ -106,7 +123,7 @@ header {
   color: black;
 }
 
-.hero-text-contents h2 {
+.hero-text-contents h1 {
   /* font-family: SF Display; */
   font-size: 70px;
   text-align: center;
