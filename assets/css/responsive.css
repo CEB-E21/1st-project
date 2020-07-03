@@ -32,7 +32,7 @@
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
-    .button-group-header{
+    .button-group-header {
         display: none;
     }
 
@@ -40,15 +40,15 @@
         display: block;
         padding: 20px;
     }
-    
-    .button-hamburger .more-menu-icon{
-        width:20px;
-        height:20px;
+
+    .button-hamburger .more-menu-icon {
+        width: 20px;
+        height: 20px;
     }
 
-    .header-left h1{
+    .header-left h1 {
         font-family: SF Display;
-        padding:10px 58% 10px 30px;
+        padding: 10px 58% 10px 30px;
     }
 
     .menu {
@@ -91,15 +91,15 @@
     }
 
     .hero {
-        margin-left:5%;
+        margin-left: 5%;
         margin-right: 5%;
     }
 
-    .hero-text-contents h1{
+    .hero-text-contents h1 {
         font-size: 48px;
     }
 
-    .hero-text-contents p{
+    .hero-text-contents p {
         font-size: 18px;
     }
 
