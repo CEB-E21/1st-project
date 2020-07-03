@@ -17,6 +17,17 @@
         width: 25%;
         margin: 10px 15px;
     }
+
+    .contact-left {
+        width: 20%;
+        margin-left: 50px;
+    }
+
+    .contact-right {
+        width: 50%;
+        margin-right: 50px;
+    }
+
 }
 
 /* For Smartphones */
@@ -44,6 +55,18 @@
     .cardteam .card {
         width: 75%;
         margin: 10px auto;
+    }
+
+    .contact-container {
+        flex-wrap: wrap;
+    }
+
+    .contact-left {
+        margin-left: 0px;
+    }
+
+    .contact-right {
+        margin-right: 0px;
     }
 
 }
