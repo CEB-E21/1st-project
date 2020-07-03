@@ -41,6 +41,10 @@
         font-size: 22px;
     }
 
+    .btn-container {
+        padding: 50px 0px 50px 0px;
+    }
+
     .btn-container .btn-primary {
         font-size: 20px;
     }
@@ -122,6 +126,10 @@
 
     .hero-text-contents p {
         font-size: 18px;
+    }
+
+    .btn-container {
+        padding: 50px 0px 50px 0px;
     }
 
     .btn-container .btn-primary {
