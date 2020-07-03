@@ -124,6 +124,8 @@
 
     .hero-text-contents h1 {
         font-size: 48px;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 
     .hero-text-contents p {
